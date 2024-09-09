@@ -1,0 +1,61 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+}
+
+p, ul, a {
+  line-height: 150%;
+  color: #3C3A47;
+}
+
+h1.main {
+    font-size: 100px;
+    margin: 0;
+}
+
+.left-image, .product-description {
+  width: 50%;
+  height: 100vh;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+.left-image {
+  border: 20px solid #3A6EA5;
+  overflow: hidden;
+}
+
+.left-image img {
+  position: absolute;
+  width: 150%;
+  bottom: 0;
+}
+
+.product-description {
+  padding: 50px;
+}
+
+.product-description h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.btn {
+    position: absolute;
+    width: 100%;
+    background: #FF6B6B;
+    padding: 30px;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
